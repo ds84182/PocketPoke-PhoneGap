@@ -1,0 +1,60 @@
+body
+{
+    margin:0;
+	background-color: rgb(64,64,64);
+	color: lightgrey;
+}
+.header
+{
+    width:320px;
+    height:215px;
+    overflow:auto;
+    margin:0;
+}
+.content
+{
+    width:320px;
+    height:auto;
+	min-height:212px;
+    overflow:auto;
+    margin:0;
+    position: absolute;
+}
+a
+{
+	color: lightblue;
+}
+a:visible
+{
+	color: lightpurple;
+}
+a:active
+{
+	color: ghostwhite;
+}
+#search
+{
+	width: 75%;
+	text-align: center;
+	margin: 0;
+	
+}
+#searchb
+{
+	width: 25%;
+	text-align: center;
+	margin: 0;
+	left: 75%;
+	top: 0;
+	position: absolute;
+}
+h1
+{
+    text-align: center;
+	color: darkred;
+	text-shadow: 0em 0.25em 1em black;
+}
+h2
+{
+    margin: 0;
+}
